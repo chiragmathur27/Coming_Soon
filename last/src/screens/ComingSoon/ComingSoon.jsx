@@ -150,11 +150,22 @@ export const ComingSoon = () => {
         <p className={"COMING-SOON-WE-ARE-BRINGIN-SOMETHING-AWESOME-YOUR-WAY"}>
           WE ARE BRINGIN’ SOMETHING AWESOME YOUR WAY
         </p>
-        <div className={"COMING-SOON-NAV-BAR"}>
-          <div className={"COMING-SOON-overlap-group1"}>
-            <div className={"COMING-SOON-rectangle-33"} />
-            <div className={"COMING-SOON-rectangle-5"} />
-            <div className={"COMING-SOON-home"}>Home</div>
+        <div className={"COMING-SOON-NAV-BAR"} style={{ width: "100vw" }}>
+          <div
+            className={"COMING-SOON-overlap-group1"}
+            style={{ width: "100%" }}
+          >
+            <div
+              className={"COMING-SOON-rectangle-33"}
+              style={{ width: "100%" }}
+            />
+            <div
+              className={"COMING-SOON-rectangle-5"}
+              style={{ width: "100%" }}
+            />
+            <a href="http://35.72.8.63:5678">
+              <div className={"COMING-SOON-home"}>Home</div>
+            </a>
             <div className={"COMING-SOON-the-facility-2"}>The Facility</div>
             <div className={"COMING-SOON-memberships-2"}>Memberships</div>
             <div className={"COMING-SOON-batting-cages-2"}>Batting Cages</div>
